@@ -41,7 +41,7 @@ default['airflow']['packages'] =
            { name: 'impyla', version: '>=0.13.3' },
            { name: 'unicodecsv', version: '>=0.14.1' }],
     jdbc: [{ name: 'jaydebeapi', version: '>=0.2.0' }],
-    mssql: [{ name: 'pymssql', version: '>=2.1.1' },
+    mssql: [{ name: 'pymssql', version: '==2.1.4' },
             { name: 'unicodecsv', version: '>=0.14.1' }],
     mysql: [{ name: 'mysqlclient', version: '>=1.3.6' }],
     rabbitmq: [{ name: 'librabbitmq', version: '>=1.6.1' }],
