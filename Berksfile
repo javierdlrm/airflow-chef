@@ -16,14 +16,9 @@ source "https://supermarket.chef.io"
 
 metadata
 
-cookbook 'apt', '~> 7.0'
-cookbook 'poise-python', '~> 1.7'
-
-cookbook 'java', '~> 7.0.0'
 cookbook 'kagent', github: "logicalclocks/kagent-chef", branch: "master"
 cookbook 'hops', github: "logicalclocks/hops-hadoop-chef", branch: "master"
 cookbook 'ndb', github: "logicalclocks/ndb-chef", branch: "master"
 cookbook 'conda', github: "logicalclocks/conda-chef", branch: "master"
-
 cookbook 'hive2', github: "logicalclocks/hive-chef", branch: "master"
 
